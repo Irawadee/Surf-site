@@ -1,0 +1,313 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+header {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#site-name a {
+  text-decoration: none;
+  font-size: 3rem;
+  color: rgb(42, 42, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10rem;
+}
+
+nav {
+  margin: 0 10rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+  font-size: 1rem;
+  margin: 0 2rem;
+}
+
+nav a:hover {
+  color: rgb(85, 84, 84);
+}
+
+nav i {
+  font-size: 1.5rem;
+  color: rgb(42, 42, 42);
+}
+
+nav i:hover {
+  color: rgb(85, 84, 84);
+}
+.slide-banner img {
+  height: 600px;
+  object-fit: cover;
+  object-position: 0 20%;
+}
+.carousel-caption h5 {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.carousel-caption p {
+  margin: 0 0 3rem 0;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem 3rem;
+  background-color: rgb(255, 85, 0);
+  margin-top: 2rem;
+  transition: 1s;
+}
+
+.carousel-caption a:hover {
+  background-color: rgb(248, 121, 58);
+}
+
+.topic {
+  text-align: center;
+  margin: 5rem auto;
+}
+.topic h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgb(42, 42, 42);
+}
+
+.product-list {
+  width: 20rem;
+  height: 30rem;
+  text-align: left;
+  overflow: hidden;
+}
+.product-list img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.product-list img:hover {
+  transform: scale(0.8);
+}
+.product-list p {
+  color: rgb(42, 42, 42);
+  margin-top: 1rem;
+}
+.product-list a {
+  text-decoration: none;
+  color: rgb(248, 121, 58);
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.product-list a:hover {
+  text-decoration: underline;
+}
+
+.product-showcase {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  margin: 0 10rem 0 12rem;
+}
+
+.btn-more {
+  text-align: center;
+  margin: 0 0 5rem 0;
+  height: 5rem;
+}
+.btn-more a {
+  font-size: 1rem;
+  font-weight: 200;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 6rem;
+  background-color: rgb(255, 85, 0);
+  transition: 1s;
+}
+
+.btn-more a:hover {
+  background-color: rgb(248, 121, 58);
+}
+
+#blog {
+  display: flex;
+}
+.photo {
+  width: 45rem;
+}
+.photo img {
+  width: 700px;
+  height: 450px;
+}
+
+.content {
+  width: 30rem;
+  color: rgb(42, 42, 42);
+  text-align: left;
+  margin: auto auto;
+}
+.content strong {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.content p {
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 3rem 0;
+}
+.content a {
+  text-decoration: none;
+  color: rgb(89, 89, 89);
+  border: 1px ridge rgb(42, 42, 42);
+  font-weight: 300;
+  padding: 1rem 5rem;
+  transition: 0.5s;
+  margin: 1rem 0;
+}
+
+.content a:hover {
+  font-weight: bold;
+}
+
+#review {
+  background-color: rgba(251, 232, 215, 0.84);
+  height: 35rem;
+  /* display: flex;
+  justify-content: center;
+  margin-top: 5rem; */
+}
+.intro {
+  text-align: center;
+  margin-top: 3rem;
+}
+.intro h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 4rem;
+}
+.intro p {
+  font-weight: 300;
+  padding-top: 1rem;
+}
+
+.cus-review {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem 10rem;
+}
+.cus-word {
+  width: 30rem;
+  height: 15rem;
+  text-align: center;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.cus-word p {
+  margin: 1.5rem;
+}
+.cus-word img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 1rem;
+}
+
+#subscribe {
+  height: 30rem;
+  background-color: rgba(255, 85, 0, 0.852);
+}
+.sub-details {
+  color: white;
+  text-align: center;
+}
+
+.sub-details p {
+  font-weight: 200;
+  margin: 2rem 0;
+}
+.sub-details h2 {
+  margin-top: 3rem;
+  padding-top: 10rem;
+}
+.sub-details form input {
+  margin: 1rem 0 3rem 0;
+  padding: 0.5rem 8rem;
+  outline: none;
+  border: none;
+}
+
+.sub-details a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: lighter;
+  padding: 1rem 4rem;
+  border: 1px solid white;
+}
+
+.sub-details a:hover {
+  background-color: black;
+}
+
+#footer {
+  height: 10rem;
+  color: rgb(42, 42, 42);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: rgb(42, 42, 42);
+  display: flex;
+  margin: 0 10rem;
+}
+
+.name-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+.icon img {
+  width: 30px;
+  height: 30px;
+  margin: 0 0.5rem;
+}
+
+.menu-group {
+  margin: 0 10rem;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+  margin: 0 2rem;
+}
+
+.menu a:hover {
+  color: rgb(85, 84, 84);
+}
